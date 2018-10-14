@@ -24,3 +24,6 @@ print( anotherList[-1])
 del anotherList[0]
 
 print( anotherList )
+
+# mostrar elementos entre um range em uma list
+print( anotherList[0:3])
