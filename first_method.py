@@ -14,6 +14,9 @@ def i_have_learned_about() :
         print("I've create my first " + str)
     print("I've excited to learn Python")
 
+def print_hello_world(no_of_times) :
+    for i in range(0, no_of_times) :
+        print('Hello World')
 
 
 print_hello_world_2x()
@@ -21,3 +24,5 @@ print()
 say_hello_world_3x()
 print()
 i_have_learned_about()
+print()
+print_hello_world(6)
