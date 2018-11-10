@@ -1,5 +1,5 @@
-message = 'Digit the {0} numero'
-menu = 'Choose a operation\n1 to sum\n2 to subtract\n3 to multiplication\n4 Division\n5 pow\n6 sair'
+message = 'Digit the {0} numero\n'
+menu = 'Choose a operation\n1 to sum\n2 to subtract\n3 to multiplication\n4 Division\n5 pow\n6 sair\n'
 
 def get_a_number( select ) :
     return int( input( message.format( select ) ) )
