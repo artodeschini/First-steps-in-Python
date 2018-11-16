@@ -1,10 +1,10 @@
 def is_prime(number):
-    if number == 2:
-        return True
+    if number < 2:
+        return False
     for i in range(2, number):
         if number % i == 0:
             return False
-        return True
+    return True
 
 def sum_up_n(number):
     sum_up = 0
