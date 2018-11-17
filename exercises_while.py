@@ -1,6 +1,5 @@
 def print_squares_up_to(number):
     i = 1
-    result = 0
     while result < 30:
         print(result)
         result = i * i
