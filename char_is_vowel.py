@@ -16,19 +16,16 @@ def is_consonat(c) :
 
 char = input('type a character\n')
 message = f'{char} is'
-if is_vowel(char) :
-    message += ' a vowel'
-else:
-    message += ' not a vowel'
+
+message += '' if is_vowel(char) else ' not '
+message += ' a vowel'
 
 
 print(message)
 
 char = input('type a character\n')
 message = f'{char} is'
-if is_consonat(char) :
-    message += ' a consonant'
-else:
-    message += ' not a consonant'
+message += '' if  is_consonat(char) else ' not '
+message += ' a consonant'
 
 print(message)
