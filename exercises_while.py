@@ -1,14 +1,14 @@
 def print_squares_up_to(number):
     i = 1
     while result < 30:
-        print(result)
+        print(result, end= ' ')
         result = i * i
         i += 1
 def print_cubes_up_to(number):
     i = 1
     result = 0
     while result < 30:
-        print(result)
+        print(result, end=' ')
         result = pow(i,3)
         i += 1
 
