@@ -1,17 +1,22 @@
 # class Motor Bike
 
 class MotorBike:
-    pass
+    def __init__(self, name, spped):
+        self.name = name
+        self.spped = spped
 
-honda  = MotorBike()
-ducati = MotorBike()
+honda  = MotorBike('Honda', 80)
+ducati = MotorBike('Ducati', 250)
 
 motors = ( honda, ducati )
 
 for m in motors:
-    print(m)
+    print(m.name)
+    print(m.spped)
 
-honda.spped = 80
-ducati.spped = 250
+#honda.spped = 80
+#ducati.spped = 250
+
+
 
 
