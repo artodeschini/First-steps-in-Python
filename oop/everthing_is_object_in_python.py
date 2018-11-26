@@ -19,6 +19,18 @@ print(type(sample))
 
 print(type(None))
 
+myList = [1,2,3]
+print(type(myList))
+
+myRange = range(1,10)
+print(type(myRange))
+
+mySet = {1,2,3}
+print(type(mySet))
+
+myTuple = (1,2,3)
+print(type(myTuple))
+
 # call the function
 sample
 
