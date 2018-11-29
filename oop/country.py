@@ -1,6 +1,7 @@
 class Country:
     pass
 
+
 us = Country()
 uk = Country()
 br = Country()
