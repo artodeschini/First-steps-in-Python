@@ -1,9 +1,9 @@
-from abc import ABC, abstractclassmethod
+from abc import ABC, abstractmethod
 
 
 class AbstractAnimal(ABC):
 
-    @abstractclassmethod
+    @abstractmethod
     def bark(self):
         pass
 
