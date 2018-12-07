@@ -17,7 +17,7 @@ class Currency:
 
     def __add__(self, other):
         if self.currency != other.currency:
-            raise Exception("Currencies not match")
+            raise CurrencyError("Currencies not match " + self.currency + ' ' + other.currency)
         total_amount = self.amount + other.amount
         return Currency(self.currency, total_amount)
 
